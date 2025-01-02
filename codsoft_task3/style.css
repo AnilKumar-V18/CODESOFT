@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  max-width: 300px;
+  margin: 10rem auto;
+  background-color: #222;
+  padding: 2rem 1rem;
+  border-radius: 0.8rem;
+}
+
+#display {
+  grid-column: span 4;
+  background-color: #e7e2e2fd;
+  padding: 20px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+#btnDivide {
+  background-color: blue;
+  color: #fff;
+}
+#btnMultiply {
+  background-color: blue;
+  color: #fff;
+}
+#btnSubtract {
+  background-color: blue;
+  color: #fff;
+}
+#btnAdd {
+  background-color: blue;
+  color: #fff;
+}
+#btnEqual {
+  background-color: green;
+}
+
+#btnClear {
+  background-color: red;
+}
